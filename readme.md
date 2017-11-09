@@ -5,7 +5,7 @@
  Навешивает событие долгого касания
  @param {Object} elem DOM элемент на который навешивается событие
  @param {Function} func Функция, выполняемая по событию
- @param {...*} args Параметры передаваемые в функцию
+ @param {...*} [args] Параметры передаваемые в функцию
  */
 function longTap(elem, func, ...args) {
     let timer = null;
